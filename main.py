@@ -24,7 +24,6 @@ def sha256hash():
     total2 = (et2 - st2) * 10000
     print("Total time: ", total2, "ns\n")
 
-
 def main():
     sha256hash()
 
