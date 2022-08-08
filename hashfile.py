@@ -1,8 +1,9 @@
 import hashlib as hash
 import time 
+from hashlib import sha256
 
 def sha256hash():
-    # fist .txt file (less than 256 bytes)
+    # fist .txt file (less than 256 bits)
     st1 = time.time()
     with open("small.txt","rb") as f1:
         contents1 = f1.read()
